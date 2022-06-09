@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+#cabecalho{
+    background-color: #101010;
+    width: 70vw;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 7px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+}
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner h1{
+    font-size: 3rem;
+}
+
+
+#nossa-equipe{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+#section-nossa-equipe{
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.equipe{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.equipe img{
+    width: 80px;
+    border-radius: 100%;
+}
+
+.equipe h3{
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+.equipe p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.equipe button{
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    max-width: 90%;
+    
+}
+
+.equipe button img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+#section-nossa-equipe article:nth-child(1){
+    background-color: #c14000;
+}
+
+#section-nossa-equipe article:nth-child(2){
+    background-color: #009987;
+}
+
+#section-nossa-equipe article:nth-child(3){
+    background-color: #ffaa00;
+}
+
+#section-nosso-negocio{
+    display: flex;
+    width: 80vw;
+    margin: 100px auto;
+    gap: 30px;
+    background-color: #101010;
+}
+
+#section-nosso-negocio img{
+    width: 30%;
+}
+
+#section-nosso-negocio article{
+    text-align: center;
+    padding: 10px;
+}
+
+#section-nosso-negocio article p{
+    text-align: start;
+    margin: 10px 0;
+    font-size: 0.8rem;
+    color: #c4c4c4;
+}
+
+#section-nosso-negocio article button{
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px 50px;
+    border: 2px solid #737373;
+    margin-top: 20px;
+}
+
+#projetos{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projetos article p{
+    width: 40%;
+    margin: 30px auto;
+}
+
+#projetos section{
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    row-gap: 5px;
+}
+
+#projetos section img{
+    width: 20vw;
+    margin: auto;
+}
+
+#projetos button {
+    background-color: transparent;
+    border: 2px solid #737373;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#rodape{
+    margin-top: 70px;
+    height: 60px;
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+#rodape address{
+    font-style: normal;
+    color: #c4c4c4;
+    font-size: 0.8rem;
+}
+
+#rodape article{
+    display: flex;
+    gap: 2vw;
+}
+
+#rodape article a img{
+    width: 20px;
+}
+
+@media  screen and (max-width: 870px) {
+    .equipe button{
+        font-size: 0.8rem;
+    }
+}
+
+@media  screen and (max-width: 870px) {
+    .equipe button{
+        font-size: 0.8rem;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .equipe button{
+        font-size: 0.4rem;
+    }
+}
+
+
+
